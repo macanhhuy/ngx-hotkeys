@@ -1,8 +1,9 @@
 {
   "name": "ngx-hotkeys-vnc",
-  "version": "3.0.2",
+  "version": "3.0.6",
   "description": "A demo application showing the usage of ngx-hotkeys.",
   "scripts": {
+    "postinstall": "ngcc",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",

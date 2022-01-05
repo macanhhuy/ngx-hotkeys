@@ -3,7 +3,7 @@ export interface Hotkey {
   /**
    * Key binding
    */
-  combo: string;
+  combo: any;
   /**
    * Handler to call when binding is triggered
    */

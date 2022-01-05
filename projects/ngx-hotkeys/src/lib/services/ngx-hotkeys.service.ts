@@ -176,7 +176,8 @@ export class NgxHotkeysService implements OnDestroy {
 
   private bindToEventManager(hotkey: Hotkey): Observable<any> {
     const merged = { ...this.defaults, ...hotkey };
-    const event = `keydown.${merged.combo.replace('+', '.')}`;
+    const combo = merged.combo.toString();
+    const event = `keydown.${combo.replace('+', '.')}`;
 
     return new Observable(observer => {
       const handler = (e: Event) => {
