@@ -1,5 +1,5 @@
 {
-  "name": "@balticcode/ngx-hotkeys-demo",
+  "name": "ngx-hotkeys-vnc",
   "version": "3.0.2",
   "description": "A demo application showing the usage of ngx-hotkeys.",
   "scripts": {
